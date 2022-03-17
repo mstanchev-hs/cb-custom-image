@@ -1,4 +1,4 @@
-#!/bin/bash -lex
+#!/bin/bash
 
 chef_environment=$1
 cookbook_name=$2
