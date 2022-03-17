@@ -13,4 +13,5 @@ phases:
   build:
     commands:
       - git clone https://github.com/mstanchev-hs/cb-custom-image.git
+      - ls -latr cb-custom-image/
       - echo "Hello World from buildspec!"
