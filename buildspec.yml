@@ -14,4 +14,6 @@ phases:
     commands:
       - git clone https://github.com/mstanchev-hs/cb-custom-image.git
       - ls -latr cb-custom-image/
-      - echo "Hello World from buildspec!"
+      - chmod 755 cb-custom-image/Chef_Cookbook_Promote.sh
+      - cb-custom-image/Chef_Cookbook_Promote.sh $chef_environment $cookbook $version $WORKSPACE
+      #- echo "Hello World from buildspec!"
