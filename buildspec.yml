@@ -16,5 +16,5 @@ phases:
       - ls -latr cb-custom-image/
       - chmod 755 cb-custom-image/Chef_Cookbook_Promote.sh
       - echo $chef_environment $cookbook $version $WORKSPACE
-      - $WORKSPACE/cb-custom-image/Chef_Cookbook_Promote.sh $chef_environment $cookbook $version $WORKSPACE
+      - ./cb-custom-image/Chef_Cookbook_Promote.sh $chef_environment $cookbook $version $WORKSPACE
       #- echo "Hello World from buildspec!"
