@@ -12,5 +12,5 @@ phases:
 
   build:
     commands:
-      #- docker images
+      - git clone https://github.com/mstanchev-hs/cb-custom-image.git
       - echo "Hello World from buildspec!"
